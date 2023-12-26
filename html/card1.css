@@ -1,0 +1,71 @@
+
+body{
+    margin:0 ;
+    padding:0 ;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 175, 116);
+}
+
+#cart{
+   
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#cart > div{
+    width: 30% ;
+    background-color: black;
+    overflow: hidden;
+}
+
+#cart > div > img{
+    width: 100% ;  
+    height: 250px;
+    transition: 2s;
+  
+}
+
+#cart > div > h3{
+    text-align: center;
+    font-size: 30 px;
+    color: darkcyan;
+    letter-spacing: 5px;
+}
+
+#cart > div > h4{
+     padding-left: 10px;
+     color: hotpink;
+     font-size: 20  px;
+}
+
+#cart > div > button{
+    width: 100%;
+    height: 25px;
+    background-color: dimgrey;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: 2s;
+
+}
+
+#cart > div > .price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: blanchedalmond;
+  
+
+}

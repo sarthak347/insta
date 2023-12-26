@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(193, 53, 53);
+}
+nav{
+    position: sticky;
+    background-color: aqua;
+}
+/* img{
+     /* position: relative;              if it is relative ,content itself will be axis center point and it will occupy the oriinal space  */
+     /* position: absolute;              body itself is the axis center point  */
+     /* position:sticky; s                  it will stick the postion even if you scroll up and down */
+    /* top: 20px;
+    left: 20px;
+} */ 
+#content{
+    margin: 0px;
+    padding: 0px;
+display: flex;
+list-style-type: none;
+/* justify-content: space-between; */
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+a:hover{
+    background-color: black;
+}
+#menu{
+    padding: 0px;
+    background-color: blanchedalmond;
+    list-style-type: none;
+    position: absolute;
+    /* position: relative; */
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+
+img{
+ position: relative;
+}

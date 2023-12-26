@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-image: url(./images/Netflix\ logo.jpg);
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#mainsection{
+    background-color: rgba(0, 0, 0, 0.412);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+
+header div img{
+    width: 170px;
+    height: 165px;
+    margin-top: -40px;
+    margin-left: 10rem;
+}
+#lang{
+    display: flex;
+    margin-top:25px ;
+    width: 30%;
+    gap: 20px;
+}
+
+#lang #language{
+    background: transparent;
+    background-color: rgba(20, 18, 18, 0.438);
+    color: white;
+    margin-left: 50px;
+    height: 2.3rem;
+    width: 9rem;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#lang button{
+    height: 2.3rem;
+    width: 23%;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border-radius: none;
+}
+#main{
+    text-align: center;
+    color: white;
+    justify-content: center;
+
+}
+#main h1{
+    font-size: 3rem;
+}
+#tv{
+    /* background-color: crimson; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 38rem;
+}
+#tvleft{
+    width: 40%;
+}
+#tvleft h1{
+    font-size: 3rem;
+}
+#tvleft p{
+    font-size: 1.2rem;
+}
+#tvright{
+    width: 60%;
+    position: relative;
+}
+#tvright img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#tvright video{
+    position: absolute;
+    left: 13%;
+    top: 20.52%;
+    width: 73%;
+    z-index: 1  ;
+}
+#kids{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#kidsleft{
+    width: 50%;
+    padding-left: 3rem;
+
+}
+#kidsright{
+    color: white;
+    width: 50%;
+    padding-right: 5rem;
+}
+#kidsright h1{
+    font-size: 3rem;
+}
+#kidsright p{
+    font-size: 1.5rem;
+}
+#tv2{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#tv2 #tv2left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 60%;
+}
+#tv2 #tv2right{
+    width: 40%;
+    position: relative;
+}
+#tv2left h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+#tv2left p{
+    font-size: 1.5rem;
+}
+#tv2right img{
+        width: 100%;
+        position: relative;
+}
+#tv2right video{
+    position: absolute;
+    top: 13.5%;
+    left: 18.5%;
+    width: 61%;
+    z-index: -1;
+}

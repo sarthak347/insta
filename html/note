@@ -1,0 +1,36 @@
+for changing type block level to inline level in css display inline
+
+block means ocuppie space of parent tag
+inline will ocuppie containt
+
+text aline will work for bloack level
+
+
+:hover will do animatuon when curser
+transition 4s will shlow thw effect
+
+
+create 3 a tag 
+
+
+* is a globle selector ,it will give to all elements 
+
+block level element will occupy parent width 
+
+
+for align items for vertical 
+justify contect for horizontal will ony work when given display flex
+
+
+
+flex will apply on child
+
+
+justify conent i=
+
+
+height should be given in pixel
+and width should be given in percentage
+ 
+
+ when we have to overlap absolute

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   background-color: red;
+   position: absolute;
+   width: 20%;
+   height: 100vh;
+   
+
+
+}
+
+#cont{    /*ul1 */
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+
+}
+
+a:hover{
+
+  background-color: black;
+
+}
+
+
+#menu:hover{
+
+
+    background-color: blue;
+
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+    padding: 20px;
+    display: block;
+    
+
+}
+
+
+#menu{
+
+    list-style-type: none;
+    display: none;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 19%;
+    left: 100%;
+
+}
+
+
+#drop:hover #menu{
+
+    display: block;
+}
+
+
+#drop{
+
+    position: relative;
+}
+
+
+#drop2{
+
+
+}
+
+#menu2{
+
+list-style-type: none;
+background-color: blueviolet;
+position: absolute;
+margin: 0;
+padding: 0;
+
+
+display: none;
+
+}
+
+#drop2:hover #menu2{
+
+    display: block;
+}

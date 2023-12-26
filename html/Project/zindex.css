@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+/* #red{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#blue{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+
+
+}
+#yellow{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+}
+h1{
+    margin: 0;
+} */
+span{
+    position: absolute;
+    background-color: rebeccapurple;
+    z-index: 3;
+}
+a{
+    position: absolute;
+    background-color: chartreuse;
+    z-index: 2;
+}
+p{
+    position: absolute;
+    background-color: blanchedalmond;
+    z-index: 1;
+}

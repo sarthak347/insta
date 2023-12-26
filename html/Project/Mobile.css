@@ -1,0 +1,43 @@
+/* body{
+    background-color: hotpink;
+}
+#desktop{
+    color: darkmagenta;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: bisque;
+    }
+    #mobile{
+        color: lightcoral;
+    }
+
+}
+@media  (min-width:601px) and (max-width:1000px){
+    body{
+        background-color: aqua;
+    }
+    #tab{
+        color: brown;
+    }
+} */
+#mobile,#tab{
+    display: none;
+}
+@media (max-width:600px){
+    #mobile{
+        display: inline-block;
+    }
+    #desktop,#tab{
+        display: none;
+    }
+}
+@media  (min-width:601px) and (max-width:1000px){
+    #tab{
+        display: inline-block;
+    }
+    #desktop,#mobile{
+        display: none;
+    }
+}

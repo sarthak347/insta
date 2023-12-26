@@ -1,0 +1,22 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.fa-user{
+
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#n{
+
+    position: relative;
+}
+
+
+#fname{
+
+    padding-left: 0e;
+}

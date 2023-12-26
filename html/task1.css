@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:black; */
+}
+nav{
+    /* padding: 30px; */
+    background-color: aqua;
+}
+#list1{
+    display: flex;
+    font-size: 20px;
+    /* justify-content: space-between; */
+    gap: 25rem;
+    list-style-type: none;
+}
+#vegdrop{
+    margin: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+#veglist:hover #vegdrop{
+    display: block;
+}
+#nonvegdrop{
+    /* margin: 20px; */
+    background-color: black;
+    color: blanchedalmond;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    /* padding: 20px; */
+}
+li{
+    padding: 20px;
+}
+#nonveglist:hover #nonvegdrop{
+    display: block;
+}
+#drinksdrop{
+    margin: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+#drinkslist:hover #drinksdrop{
+    display: block;
+}

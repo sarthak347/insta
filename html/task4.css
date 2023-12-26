@@ -1,0 +1,40 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h4{
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(65, 65, 92);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400%;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    /* width: 100%; */
+    align-items: end;
+    height: 100vh;
+    background-image: url(./images2/bhel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 140px;
+    background-color: rgba(40, 40, 69, 0.508);
+}
+h2{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke ;
+}
+footer div ul{
+    list-style-type: none;
+}
